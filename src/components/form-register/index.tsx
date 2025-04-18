@@ -22,7 +22,6 @@ export default function SignupForm() {
       ...prev,
       [name]: value
     }));
-    // Limpa o erro quando o usuário começa a digitar
     if (errors[name]) {
       setErrors(prev => ({ ...prev, [name]: '' }));
     }
