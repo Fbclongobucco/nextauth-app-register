@@ -16,7 +16,7 @@ export default function ButtonLogOut(){
 
 
     return (
-        <button className="p-2 w-40 border border-gray-300 rounded-md" onClick={signout}>
+        <button className="p-2 w-40 border border-gray-300 rounded-md text-blue-200 cursor-pointer" onClick={signout}>
             sair
         </button>
 

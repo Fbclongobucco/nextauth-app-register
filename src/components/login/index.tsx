@@ -27,7 +27,7 @@ export default function Login() {
       redirect: false
     })
 
-    if(result?.error){
+    if (result?.error) {
       console.log(result)
       return
     }
